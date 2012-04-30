@@ -1,0 +1,757 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.8.16)  30 APR 2012 17:59
+entering extended mode
+**C:/Documents*and*Settings/Stefan/My*Documents/Files/Publications/journals/Ins
+ightJournal-stripTs2012/doc/article.tex
+
+("C:/Documents and Settings/Stefan/My Documents/Files/Publications/journals/Ins
+ightJournal-stripTs2012/doc/article.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+
+("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
+ightJournal-stripTs2012\doc\InsightArticle.cls"
+Document Class: InsightArticle 1998/02/25 Document class (Insight Article)
+
+("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
+ightJournal-stripTs2012\doc\times.sty"
+Package: times 2002/09/08 PSNFSS-v9.0a (SPQR) 
+)
+Using Times instead of Computer Modern.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
+ightJournal-stripTs2012\doc\fancyhdr.sty"
+\headwidth=\dimen103
+)
+Using fancier footers than usual.
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Using ifpdf for the template
+
+("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
+ightJournal-stripTs2012\doc\InsightJournal.sty"
+Package: InsightJournal 1998/01/11 LaTeX package (Insight markup)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip43
+\LTright=\skip44
+\LTpre=\skip45
+\LTpost=\skip46
+\LTchunksize=\count87
+\LTcapwidth=\dimen104
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count88
+\LT@rows=\count89
+\c@LT@tables=\count90
+\c@LT@chunks=\count91
+\LT@p@ftn=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count92
+))
+("C:\Documents and Settings\Stefan\Application Data\MiKTeX\2.9\tex\latex\picins
+\picins.sty" Option `picins' Version 3.0 Sep. 1992, TH Darmstadt/HRZ
+\@BILD=\box30
+\@TEXT=\box31
+\d@breite=\dimen105
+\d@hoehe=\dimen106
+\d@xoff=\dimen107
+\d@yoff=\dimen108
+\d@shad=\dimen109
+\d@dash=\dimen110
+\d@boxl=\dimen111
+\d@pichskip=\dimen112
+\d@tmp=\dimen113
+\d@tmpa=\dimen114
+\d@bskip=\dimen115
+\hsiz@=\dimen116
+\p@getot@l=\dimen117
+\c@breite=\count93
+\c@hoehe=\count94
+\c@xoff=\count95
+\c@yoff=\count96
+\c@pos=\count97
+\c@shad=\count98
+\c@dash=\count99
+\c@boxl=\count100
+\c@zeilen=\count101
+\@changemode=\count102
+\c@piccaption=\count103
+\c@piccaptionpos=\count104
+\c@picpos=\count105
+\c@whole=\count106
+\c@half=\count107
+\c@tmp=\count108
+\c@tmpa=\count109
+\c@tmpb=\count110
+\c@tmpc=\count111
+\c@tmpd=\count112
+\d@leftskip=\skip47
+\ptoti=\dimen118
+\ptotii=\dimen119
+\env@box=\box32
+\d@envdp=\dimen120
+\c@hsize=\count113
+\c@envdp=\count114
+\d@envb=\dimen121
+)
+("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
+ightJournal-stripTs2012\doc\floatflt.sty"
+Package: floatflt 1997/07/16 v. 1.31
+\c@OptionTest=\count115
+\figbox=\box33
+\tabbox=\box34
+\pagebox=\box35
+\ffigcount=\count116
+\ftabcount=\count117
+\fftest=\count118
+\hangcount=\count119
+\nosuccesstryfig=\count120
+\nosuccesstrytab=\count121
+\figgutter=\dimen122
+\tabgutter=\dimen123
+\htdone=\dimen124
+\pageht=\dimen125
+\startpageht=\dimen126
+\tabbredd=\dimen127
+\floatfltwidth=\dimen128
+\fltitemwidth=\dimen129
+\outputpretest=\toks15
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen130
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen131
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count122
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count123
+\leftroot@=\count124
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count125
+\DOTSCASE@=\count126
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box36
+\strutbox@=\box37
+\big@size=\dimen132
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count127
+\c@MaxMatrixCols=\count128
+\dotsspace@=\muskip11
+\c@parentequation=\count129
+\dspbrk@lvl=\count130
+\tag@help=\toks17
+\row@=\count131
+\column@=\count132
+\maxfields@=\count133
+\andhelp@=\toks18
+\eqnshift@=\dimen133
+\alignsep@=\dimen134
+\tagshift@=\dimen135
+\tagwidth@=\dimen136
+\totwidth@=\dimen137
+\lineht@=\dimen138
+\@envbody=\toks19
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pslatex\pslatex.sty"
+Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ptmcm/m/n on input line 65.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptmcm/m/n on input line 65.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 66.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ptmcm/m/it on input line 66.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ptmcm/m/it on input line 66.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 67.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/pzccm/m/n on input line 67.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/pzccm/m/n on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 68.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 68.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 68.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 74.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 74.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 74.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks21
+\verbatim@line=\toks22
+\verbatim@in@stream=\read1
+)
+("C:\Program Files\MiKTeX 2.9\tex\plain\misc\pdfcolor.tex")
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\alltt.sty"
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+\itk@ModSynopsisFile=\write3
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2011/04/17 v6.82g Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/04/04 v1.12 Provides string conversions (HO)
+Package: bigintcalc 2011/01/30 v1.2 Expandable big integer calculations (HO)
+Package: bitset 2011/01/30 v1.1 Data type bit set (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provides unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/01/30 v1.0 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/04/23 v1.7 Hooks at very end of document (HO)
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+)
+\@linkdim=\dimen141
+\Hy@linkcounter=\count134
+\Hy@pagecounter=\count135
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2011/04/17 v6.82g Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count136
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+
+! Package hyperref Error: Wrong DVI mode driver option `dvips',
+(hyperref)                because pdfTeX or LuaTeX is running in PDF mode.
+
+See the hyperref package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3905 \ProcessKeyvalOptions{Hyp}
+                                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package hyperref Info: Option `bookmarks' set `true' on input line 3905.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 3905.
+Package hyperref Info: Option `colorlinks' set `true' on input line 3905.
+Package hyperref Info: Hyper figures OFF on input line 4026.
+Package hyperref Info: Link nesting OFF on input line 4031.
+Package hyperref Info: Hyper index ON on input line 4034.
+Package hyperref Info: Plain pages OFF on input line 4041.
+Package hyperref Info: Backreferencing ON on input line 4044.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4264.
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\backref.sty"
+Package: backref 2010/08/30 v1.36 Bibliographical back referencing
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+\c@Hy@tempcnt=\count137
+LaTeX Info: Redefining \url on input line 4617.
+\Fld@menulength=\count138
+\Field@Width=\dimen142
+\Fld@charsize=\dimen143
+Package hyperref Info: Hyper figures OFF on input line 5701.
+Package hyperref Info: Link nesting OFF on input line 5706.
+Package hyperref Info: Hyper index ON on input line 5709.
+Package hyperref Info: backreferencing ON on input line 5714.
+Package hyperref Info: Link coloring ON on input line 5719.
+Package hyperref Info: Link coloring with OCG OFF on input line 5726.
+Package hyperref Info: PDF/A mode OFF on input line 5731.
+LaTeX Info: Redefining \ref on input line 5771.
+LaTeX Info: Redefining \pageref on input line 5775.
+\Hy@abspage=\count139
+\c@Item=\count140
+\c@Hfootnote=\count141
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2011/04/17 v6.82g Hyperref driver for pdfTeX
+\Fld@listcount=\count142
+\c@bookmark@seq@number=\count143
+\Hy@SectionHShift=\skip51
+)
+("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
+ightJournal-stripTs2012\doc\article.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 53.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 53
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
+File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
+)
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+
+("C:\Documents and Settings\Stefan\Application Data\MiKTeX\2.9\tex\context\base
+\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count144
+\scratchdimen=\dimen144
+\scratchbox=\box38
+\nofMPsegments=\count145
+\nofMParguments=\count146
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count147
+\MPscratchDim=\dimen145
+\MPnumerator=\count148
+\makeMPintoPDFobject=\count149
+\everyMPtoPDFconversion=\toks25
+)
+\AtBeginShipoutBox=\box39
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+Package hyperref Info: Link coloring ON on input line 53.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count150
+)
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
+
+("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
+ightJournal-stripTs2012\doc\article.out")
+("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
+ightJournal-stripTs2012\doc\article.out")
+\@outlinefile=\write4
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 22.39185pt on input line 78.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 78.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 10.79993pt on input line 78.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 78.
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 78
+.
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptmcm.fd"
+File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 78
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omlptmcm.fd"
+File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 78
+.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omxpsycm.fd"
+File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
+
+Overfull \hbox (12.27496pt too wide) in paragraph at lines 97--98
+[][] 
+ []
+
+
+("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
+ightJournal-stripTs2012\doc\article.toc")
+\tf@toc=\write5
+ [1
+
+{C:/Documents and Settings/Stefan/Local Settings/Application Data/MiKTeX/2.9/pd
+ftex/config/pdftex.map}]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 116.
+
+Overfull \vbox (1.59999pt too high) has occurred while \output is active []
+
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+[]\OT1/ptm/m/n/10.95 In or-der to make the method more ro-bust, af-ter ge-o-met
+-ri-cal ini-tial-iza-tion with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+\OT1/ptm/m/n/10.95 the  [][]\OT1/pcr/m/n/10.95 itk::CenteredTransformInitialize
+r[][]\OT1/ptm/m/n/10.95 , we first per-form a multi-resolution
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+[][]\OT1/pcr/m/n/10.95 itk::VersorRigid3DTransform[][]\OT1/ptm/m/n/10.95 , fol-
+lowed by an  [][]\OT1/pcr/m/n/10.95 itk::AffineTransform[][] \OT1/ptm/m/n/10.95
+ us-ing the
+ []
+
+! Undefined control sequence.
+l.145 \subfigure
+                {\includegraphics[width=0.3\textwidth]{figures/brainweb-mask...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<figures/brainweb-mask.png, id=111, 334.24875pt x 321.2pt>
+File: figures/brainweb-mask.png Graphic file (type png)
+
+<use figures/brainweb-mask.png>
+Package pdftex.def Info: figures/brainweb-mask.png used on input line 145.
+(pdftex.def)             Requested size: 140.92793pt x 135.42749pt.
+
+! Undefined control sequence.
+l.146 \subfigure
+                {\includegraphics[width=0.3\textwidth]{figures/brainweb-stri...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<figures/brainweb-stripped.png, id=113, 334.24875pt x 321.2pt>
+File: figures/brainweb-stripped.png Graphic file (type png)
+
+<use figures/brainweb-stripped.png>
+Package pdftex.def Info: figures/brainweb-stripped.png used on input line 146.
+(pdftex.def)             Requested size: 140.92793pt x 135.42749pt.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 147.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 147.
+
+Overfull \vbox (1.59999pt too high) has occurred while \output is active []
+
+
+[3 <C:/Documents and Settings/Stefan/My Documents/Files/Publications/journals/I
+nsightJournal-stripTs2012/doc/figures/brainweb-mask.png> <C:/Documents and Sett
+ings/Stefan/My Documents/Files/Publications/journals/InsightJournal-stripTs2012
+/doc/figures/brainweb-stripped.png>]
+! Undefined control sequence.
+l.157 \subfigure
+                {\includegraphics[width=0.19\textwidth]{figures/t1-mask.png}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<figures/t1-mask.png, id=127, 334.24875pt x 321.2pt>
+File: figures/t1-mask.png Graphic file (type png)
+ <use figures/t1-mask.png>
+Package pdftex.def Info: figures/t1-mask.png used on input line 157.
+(pdftex.def)             Requested size: 89.2546pt x 85.76944pt.
+
+! Undefined control sequence.
+l.158 \subfigure
+                {\includegraphics[width=0.19\textwidth]{figures/t1c-mask.png}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<figures/t1c-mask.png, id=128, 334.24875pt x 321.2pt>
+File: figures/t1c-mask.png Graphic file (type png)
+
+<use figures/t1c-mask.png>
+Package pdftex.def Info: figures/t1c-mask.png used on input line 158.
+(pdftex.def)             Requested size: 89.2546pt x 85.76944pt.
+
+! Undefined control sequence.
+l.159 \subfigure
+                {\includegraphics[width=0.19\textwidth]{figures/t2-mask.png}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<figures/t2-mask.png, id=129, 334.24875pt x 321.2pt>
+File: figures/t2-mask.png Graphic file (type png)
+ <use figures/t2-mask.png>
+Package pdftex.def Info: figures/t2-mask.png used on input line 159.
+(pdftex.def)             Requested size: 89.2546pt x 85.76944pt.
+
+! Undefined control sequence.
+l.160 \subfigure
+                {\includegraphics[width=0.19\textwidth]{figures/t2f-mask.png}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<figures/t2f-mask.png, id=130, 334.24875pt x 321.2pt>
+File: figures/t2f-mask.png Graphic file (type png)
+
+<use figures/t2f-mask.png>
+Package pdftex.def Info: figures/t2f-mask.png used on input line 160.
+(pdftex.def)             Requested size: 89.2546pt x 85.76944pt.
+
+! Undefined control sequence.
+l.161 \subfigure
+                {\includegraphics[width=0.19\textwidth]{figures/ct-mask.png}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<figures/ct-mask.png, id=131, 334.24875pt x 321.2pt>
+File: figures/ct-mask.png Graphic file (type png)
+ <use figures/ct-mask.png>
+Package pdftex.def Info: figures/ct-mask.png used on input line 161.
+(pdftex.def)             Requested size: 89.2546pt x 85.76944pt.
+
+Overfull \vbox (1.59999pt too high) has occurred while \output is active []
+
+
+[4 <C:/Documents and Settings/Stefan/My Documents/Files/Publications/journals/I
+nsightJournal-stripTs2012/doc/figures/t1-mask.png> <C:/Documents and Settings/S
+tefan/My Documents/Files/Publications/journals/InsightJournal-stripTs2012/doc/f
+igures/t1c-mask.png> <C:/Documents and Settings/Stefan/My Documents/Files/Publi
+cations/journals/InsightJournal-stripTs2012/doc/figures/t2-mask.png> <C:/Docume
+nts and Settings/Stefan/My Documents/Files/Publications/journals/InsightJournal
+-stripTs2012/doc/figures/t2f-mask.png> <C:/Documents and Settings/Stefan/My Doc
+uments/Files/Publications/journals/InsightJournal-stripTs2012/doc/figures/ct-ma
+sk.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+[]\OT1/ptm/m/n/10.95 The fol-low-ing ex-cerpt from the []\OT1/pcr/m/n/10.95 sku
+llStripping.cxx \OT1/ptm/m/n/10.95 main file shows how to use the
+ []
+
+
+Overfull \hbox (4.54272pt too wide) in paragraph at lines 202--202
+[]\OT1/pcr/m/n/10 typedef itk::StripTsImageFilter<ImageType, AtlasImageType, At
+lasLabelType> StripTsFilterType;[] 
+ []
+
+
+Overfull \vbox (1.59999pt too high) has occurred while \output is active []
+
+
+[5]
+("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
+ightJournal-stripTs2012\doc\article.bbl"
+("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
+ightJournal-stripTs2012\doc\article.brf")
+\tf@brf=\write6
+Missing character: There is no â in font ptmri7t!
+Missing character: There is no € in font ptmri7t!
+Missing character: There is no “ in font ptmri7t!
+
+Overfull \vbox (1.59999pt too high) has occurred while \output is active []
+
+
+[6])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 293.
+
+Overfull \vbox (1.59999pt too high) has occurred while \output is active []
+
+
+[7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
+
+("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
+ightJournal-stripTs2012\doc\article.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 293.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 293.
+Package rerunfilecheck Info: File `article.out' has not changed.
+(rerunfilecheck)             Checksum: C49B942892D367874D88AADAAE300A6D;273.
+Package rerunfilecheck Info: File `article.brf' has not changed.
+(rerunfilecheck)             Checksum: 8F84614C03EF2A1579059A91B6A2633A;620.
+ ) 
+Here is how much of TeX's memory you used:
+ 6883 strings out of 494045
+ 99313 string characters out of 3148330
+ 192745 words of memory out of 3000000
+ 10011 multiletter control sequences out of 15000+200000
+ 55285 words of font info for 109 fonts, out of 3000000 for 9000
+ 716 hyphenation exceptions out of 8191
+ 41i,12n,42p,1001b,491s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/he
+lvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/urw/times/utmri8a.pfb>
+Output written on article.pdf (7 pages, 396097 bytes).
+PDF statistics:
+ 239 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
+ 84 words of extra memory for PDF output out of 10000 (max. 10000000)
+

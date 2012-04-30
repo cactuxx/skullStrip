@@ -1,0 +1,294 @@
+%
+% Complete documentation on the extended LaTeX markup used for Insight
+% documentation is available in ``Documenting Insight'', which is part
+% of the standard documentation for Insight.  It may be found online
+% at:
+%
+%     http://www.itk.org/
+
+\documentclass{InsightArticle}
+
+\usepackage[dvips]{graphicx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  hyperref should be the last package to be loaded.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[dvips,
+bookmarks,
+bookmarksopen,
+backref,
+colorlinks,linkcolor={blue},citecolor={blue},urlcolor={blue},
+]{hyperref}
+
+
+%  This is a template for Papers to the Insight Journal. 
+%  It is comparable to a technical report format.
+
+% The title should be descriptive enough for people to be able to find
+% the relevant document. 
+\title{A Skull-Stripping Filter for ITK}
+
+% 
+% NOTE: This is the last number of the "handle" URL that 
+% The Insight Journal assigns to your paper as part of the
+% submission process. Please replace the number "1338" with
+% the actual handle number that you get assigned.
+%
+\newcommand{\IJhandlerIDnumber}{1338}
+
+% Increment the release number whenever significant changes are made.
+% The author and/or editor can define 'significant' however they like.
+\release{1.0}
+
+% At minimum, give your name and an email address.  You can include a
+% snail-mail address if you like.
+\author{Stefan Bauer$^{1}$, Thomas Fejes$^{1,2}$ and Mauricio Reyes$^{1}$}
+\authoraddress{$^{1}$Institute for Surgical Technology and Biomechanics, University of Bern, Switzerland\\
+               $^{2}$Department of Neuroradiology, Inselspital, Bern University Hospital, Switzerland\\
+               \href{mailto:stefan.bauer@istb.unibe.ch}{stefan.bauer@istb.unibe.ch}
+}
+
+\begin{document}
+
+%
+% Add hyperlink to the web location and license of the paper.
+% The argument of this command is the handler identifier given
+% by the Insight Journal to this paper.
+% 
+\IJhandlefooter{\IJhandlerIDnumber}
+
+
+\ifpdf
+\else
+   %
+   % Commands for including Graphics when using latex
+   % 
+   \DeclareGraphicsExtensions{.eps,.jpg,.gif,.tiff,.bmp,.png}
+   \DeclareGraphicsRule{.jpg}{eps}{.jpg.bb}{`convert #1 eps:-}
+   \DeclareGraphicsRule{.gif}{eps}{.gif.bb}{`convert #1 eps:-}
+   \DeclareGraphicsRule{.tiff}{eps}{.tiff.bb}{`convert #1 eps:-}
+   \DeclareGraphicsRule{.bmp}{eps}{.bmp.bb}{`convert #1 eps:-}
+   \DeclareGraphicsRule{.png}{eps}{.png.bb}{`convert #1 eps:-}
+\fi
+
+
+\maketitle
+
+
+\ifhtml
+\chapter*{Front Matter\label{front}}
+\fi
+
+
+% The abstract should be a paragraph or two long, and describe the
+% scope of the document.
+\begin{abstract}
+\noindent
+
+Skull-stripping (or brain extraction) is an important pre-processing step in neuroimage analysis.
+This document describes a skull-stripping filter implemented using the Insight Toolkit
+ITK, which we named \doxygen{StripTsImageFilter} . It is a composite filter based on existing ITK classes. The filter has been implemented with usability, robustness, speed and versatility in mind, rather than accuracy. This makes it useful for many pre-processing tasks in neuroimage analysis.
+
+This paper is accompanied by the source code, input data and a testing environment.
+\end{abstract}
+
+\IJhandlenote{\IJhandlerIDnumber}
+
+\tableofcontents
+
+
+\section{Introduction}
+
+Skull-stripping is an important pre-processing step for analyzing medical images of the head region. Skull-stripping separates the brain from the skull and other surrounding structures. This is required by many algorithms for automatic segmentation or registration of brain images, as well as for visualization of the results.
+
+In the last years, many different approaches have been proposed to solve this problem. They range from simple morphological operations to advanced model-based methods or sophisticated classification-based approaches \cite{Carass2011,Eskildsen2011,Hahn2000,Iglesias2011,Segonne2004,Sadananthan2010,Sandor1997,Shi2011,Smith2002a,Wang2011}. Arguably the most-used tool is the brain extraction tool (BET) developed by Smith et al. \cite{Smith2002a}. Although there have been a number of comparison papers \cite{Fennema-Notestine2006,Hartley2006,Lee2003} and even one online resource for directly comparing different algorithms \cite{Shattuck2009}, the results are inconclusive. Recently, there have also been methods proposed, which are targeted at specific applications, as an example skull-stripping for tumor-bearing brain images \cite{Speier2011,Bauer2011c}.
+
+In general, the majority of the current methods are tuned to work on $\mathrm{T_1}$-weighted magnetic resonance images (MRI). The problem with some of the most accurate methods is, that they require a significant amount of computation time, which makes them not very useful for preprocessing purposes. Additionally, most implementations are not publicly available and to the best of our knowledge, there is no filter with publicly available source code for the Insight Toolkit (ITK) \cite{Ibanez2003} \url{www.itk.org}. An ITK filter, which is easy to use, versatile, robust and has a fast run-time, would be important for being able to directly integrate this preprocessing step into individual applications. We want to address this need by contributing an ITK class for skull-stripping of medical images.
+
+\section{Methods}
+
+We implemented a method previously described in \cite{Bauer2011c}. It is based on a two step procedure. Initially, an atlas image is registered to the patient image using an affine transformation model and the brain mask of the atlas is propagated to the patient image with the calculated transformation matrix \cite{Zitova2003}. This brain mask is eroded and then serves as initialization for a refined brain extraction based on level-sets. The level-set is evolved towards the edge of the brain-skull border with dedicated expansion, curvature and advection terms \cite{Tsai2003}.
+
+As an atlas, we use a customized isotropic $\mathrm{T_1}$-weighted MR image from the IXI dataset \footnote{http://www.brain-development.org/} with a manually generated brain mask.
+
+\newpage
+
+\section{Implementation}
+
+The method has been implemented as an ITK filter, named 
+
+\doxygen{StripTsImageFilter}
+
+which can be used within a standard ITK pipeline. It is designed as a composite filter, making use of standard ITK classes, namely the registration framework and the level-set framework. It is derived from the \doxygen{ImageToImageFilter} class and thus implements the standard functions. The filter requires 3 inputs: 
+\small
+\begin{verbatim}
+SetInput()
+SetAtlasImage()
+SetAtlasMask()
+\end{verbatim}
+\normalsize
+and outputs a binary brain mask image, which can be used to extract the brain from the patient image.
+
+In order to make the method more robust, after geometrical initialization with the \doxygen{CenteredTransformInitializer}, we first perform a multi-resolution \doxygen{VersorRigid3DTransform}, followed by an \doxygen{AffineTransform} using the \doxygen{MattesMutualInformationImageToImageMetric}. This allows us to handle cases, where the atlas has a different modality than the patient image. For speed reasons, the initial registration is performed on a subsampled version of the patient image. The final refinement of the brain-skull border is carried out by the \doxygen{GeodesicActiveContourLevelSetImageFilter} in two resolution levels in order to increase robustness and speed. Additionally, in order to be able to handle various input image resolutions easily, all computations are performed in a standard space of 1mm isotropic resolution.
+
+The current implementation assumes that the images are 3-dimensional. It can be applied to a wide range of different image modalities and does not require any specific parameter settings, but when necessary, the user can fine-tune the parameters of the registration or level-set segmentation according to his requirements.
+
+
+\section{Evaluation}
+
+We applied the proposed method to a $\mathrm{T_1}$-weighted MR image from the synthetic Brainweb database \cite{Cocosco1997} and show the result on one axial slice in figure \ref{fig:brainweb}.
+
+\begin{figure}[h]
+\center
+\subfigure{\includegraphics[width=0.3\textwidth]{figures/brainweb-mask.png}}
+\subfigure{\includegraphics[width=0.3\textwidth]{figures/brainweb-stripped.png}}
+\itkcaption[Brainweb Example]{Skull-stripping result shown on an axial slice of one $\mathrm{T_1}$-weighted Brainweb image. Left: original image with mask overlay. Right: Brain tissues after applying the skull-stripping mask.}
+\label{fig:brainweb}
+\end{figure}
+
+\newpage
+
+In order to demonstrate the versatility of the method, we also applied it to different medical image modalities using the same atlas and parameters settings. Figure \ref{fig:modalities} illustrates the results on $\mathrm{T_1}$, $\mathrm{T_{1contrast}}$, $\mathrm{T_2}$ and $\mathrm{T_{2flair}}$ MR images of varying resolutions, as well as one CT image. We also applied the method to a database of around 50 tumor-bearing brain MR images with visually convincing results. Only on fMRI data the results were not satisfactory. 
+
+\begin{figure}[h]
+\center
+\subfigure{\includegraphics[width=0.19\textwidth]{figures/t1-mask.png}}
+\subfigure{\includegraphics[width=0.19\textwidth]{figures/t1c-mask.png}}
+\subfigure{\includegraphics[width=0.19\textwidth]{figures/t2-mask.png}}
+\subfigure{\includegraphics[width=0.19\textwidth]{figures/t2f-mask.png}}
+\subfigure{\includegraphics[width=0.19\textwidth]{figures/ct-mask.png}}
+\itkcaption[Multimodal Examples]{Skull-stripping results shown on a sagittal slice of different patient images. From left to right: Anisotropic $\mathrm{T_1}$ MRI (axial acquisition), isotropic $\mathrm{T_{1contrast}}$ MRI (sagittal acquisition), anisotropic $\mathrm{T_2}$ MRI (axial acquisition), anisotropic $\mathrm{T_{2flair}}$ MRI (coronal acquisition), isotropic CT. }
+\label{fig:modalities}
+\end{figure}
+
+In order to provide quantitative evaluation, we applied the filter to a database of 40 healthy $\mathrm{T_1}$-weighted MR images from the segmentation validation engine \cite{Shattuck2009}. With standard settings, we achieve an average Dice coefficient of 0.91 with a standard deviation of $\pm$0.02 on these images.
+
+Computation time is between 1 and 4 minutes on a standard PC.
+
+
+
+
+% The preceding sections will have been written in a gentler,
+% introductory style.  You may also wish to include a reference
+% section, documenting all the functions/exceptions/constants.
+% Often, these will be placed in separate files and input like this:
+
+\section{Conclusion}
+
+We implemented a method for automatic skull-stripping of volumetric medical images as an ITK filter and provide the source code along with this article. The method is based on initial atlas registration with subsequent level-set refinement of the brain mask. The advantages of this filter include its ease-of-use, the robustness also in case of lesions, a reasonable computation time and the ability to be used on a number of different image modalities. The accuracy is sufficient for many tasks in neuroimage analysis.
+
+\section{User Guide}
+
+We provide a short C++ program \verb skullStripping.cxx  demonstrating the use of the filter. It works on 3D medical images and can also serve as an example how to use the \doxygen{StripTsImageFilter} in an individual project.
+
+For the command line program, the user has to provide the patient image filename, the atlas image filename and the atlas mask filename as a command line argument. If the program is called without any arguments, a brief help is displayed.
+
+For example in a Windows environment, you would use:
+\small
+\begin{verbatim}
+skullStripping.exe patientImageFilename atlasImageFilename atlasMaskFilename
+\end{verbatim}
+\normalsize
+
+\newpage
+
+The following excerpt from the \verb skullStripping.cxx  main file shows how to use the \doxygen{StripTsImageFilter} in an individual project and how to use the output for masking the patient image.
+
+\small
+\begin{verbatim}
+	// set up skull-stripping filter
+	typedef itk::StripTsImageFilter<ImageType, AtlasImageType, AtlasLabelType> StripTsFilterType;
+	StripTsFilterType::Pointer stripTsFilter = StripTsFilterType::New();
+
+	// set the required inputs for the stripTsImageFilter
+	stripTsFilter->SetInput( reader->GetOutput() );
+	stripTsFilter->SetAtlasImage( atlasReader->GetOutput() );
+	stripTsFilter->SetAtlasBrainMask( labelReader->GetOutput() );
+
+	try
+	{
+		   stripTsFilter->Update();
+	}
+	catch ( itk::ExceptionObject &exception )
+	{
+		   std::cerr << "Exception caught ! " << std::endl;
+		   std::cerr << &exception << std::endl;
+	}
+
+
+	// mask the patient image using the output generated from the stripTsImageFilter as mask
+	typedef itk::MaskImageFilter<ImageType, AtlasLabelType, ImageType> MaskFilterType;
+	MaskFilterType::Pointer maskFilter = MaskFilterType::New();
+
+	maskFilter->SetInput1( reader->GetOutput() );
+	maskFilter->SetInput2( stripTsFilter->GetOutput() );
+
+	try
+	{
+		   maskFilter->Update();
+	}
+	catch ( itk::ExceptionObject &exception )
+	{
+		   std::cerr << "Exception caught ! " << std::endl;
+		   std::cerr << &exception << std::endl;
+	}
+\end{verbatim}
+\normalsize
+
+\newpage
+
+%\appendix
+%
+%\section{This is an Appendix}
+%
+%To create an appendix in a Insight HOWTO document, use markup like
+%this:
+%
+%\begin{verbatim}
+%\appendix
+%
+%\section{This is an Appendix}
+%
+%To create an appendix in a Insight HOWTO document, ....
+%
+%
+%\section{This is another}
+%
+%Just add another \section{}, but don't say \appendix again.
+%\end{verbatim}
+
+
+%
+%  Example on how to insert an equation.
+%  Never forget to put an equation in your paper. 
+%  They make them look professional and impress the reviewers.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%
+%To support shape-guidance, the generic level set equation
+%(Eqn(~\ref{eqn:ShapeInfluenceTerm})) is extended to incorporate a shape guidance
+%term:
+%
+%\begin{equation}
+%\label{eqn:ShapeInfluenceTerm}
+%\xi \left(\psi^{*}(\mathbf{x}) - \psi(\mathbf{x})\right)
+%\end{equation}
+%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  Insert the bibliography using BibTeX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliographystyle{plain}
+\bibliography{skullStrip}
+
+
+\end{document}
+

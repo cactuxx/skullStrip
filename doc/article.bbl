@@ -1,0 +1,133 @@
+\begin{thebibliography}{10}
+
+\bibitem{Bauer2011c}
+Stefan Bauer, Lutz-Peter Nolte, and Mauricio Reyes.
+\newblock {Skull-stripping for Tumor-bearing Brain Images}.
+\newblock In Philippe B\"{u}chler and Stephen Ferguson, editors, {\em Annual
+  Meeting of the Swiss Society for Biomedical Engineering}, page~2, Bern, April
+  2011. SSBE.
+\newblock arXiv:1204.0357.
+
+\bibitem{Carass2011}
+Aaron Carass, Jennifer Cuzzocreo, M~Bryan Wheeler, Pierre-Louis Bazin, Susan~M
+  Resnick, and Jerry~L Prince.
+\newblock {Simple paradigm for extra-cerebral tissue removal: Algorithm and
+  analysis.}
+\newblock {\em NeuroImage}, 56(4):1982--1992, March 2011.
+
+\bibitem{Cocosco1997}
+C.A. Cocosco, V.~Kollokian, R.S. Kwan, and A.C. Evans.
+\newblock {BrainWeb: Online interface to a 3D MRI simulated brain database}.
+\newblock {\em Neuroimage}, 5(4), 1997.
+
+\bibitem{Eskildsen2011}
+Simon~F Eskildsen, Pierrick Coup\'{e}, Vladimir Fonov, Jos\'{e}~V Manj\'{o}n,
+  Kelvin~K Leung, Nicolas Guizard, Shafik~N Wassef, Lasse~Riis Ostergaard, and
+  D~Louis Collins.
+\newblock {BEaST: Brain extraction based on nonlocal segmentation technique.}
+\newblock {\em NeuroImage}, 59(3):2362--2373, September 2011.
+
+\bibitem{Fennema-Notestine2006}
+Christine Fennema-Notestine, I~Burak Ozyurt, Camellia~P Clark, Shaunna Morris,
+  Amanda Bischoff-Grethe, Mark~W Bondi, Terry~L Jernigan, Bruce Fischl, Florent
+  Segonne, David~W Shattuck, Richard~M Leahy, David~E Rex, Arthur~W Toga,
+  Kelly~H Zou, and Gregory~G Brown.
+\newblock {Quantitative evaluation of automated skull-stripping methods applied
+  to contemporary and legacy images: effects of diagnosis, bias correction, and
+  slice location.}
+\newblock {\em Human brain mapping}, 27(2):99--113, February 2006.
+
+\bibitem{Hahn2000}
+H.~Hahn and H.O. Peitgen.
+\newblock {The skull stripping problem in MRI solved by a single 3D watershed
+  transform}.
+\newblock In {\em Medical Image Computing and Computer-Assisted
+  Intervention–MICCAI 2000}, pages 129--145. Springer, 2000.
+
+\bibitem{Hartley2006}
+SW~Hartley, AI~Scher, ESC Korf, LR~White, and LJ~Launer.
+\newblock {Analysis and validation of automated skull stripping tools: a
+  validation study based on 296 MR images from the Honolulu Asia aging study}.
+\newblock {\em Neuroimage}, 30(4):1179--1186, 2006.
+
+\bibitem{Ibanez2003}
+L.~Ibanez, Will Schroeder, L.~Ng, J.~Cates, and Others.
+\newblock {\em {The ITK software guide}}.
+\newblock Citeseer, 2003.
+
+\bibitem{Iglesias2011}
+Juan~Eugenio Iglesias, Cheng-Yi Liu, Paul~M Thompson, and Zhuowen Tu.
+\newblock {Robust brain extraction across datasets and comparison with publicly
+  available methods.}
+\newblock {\em IEEE transactions on medical imaging}, 30(9):1617--34, September
+  2011.
+
+\bibitem{Lee2003}
+J~Lee.
+\newblock {Evaluation of automated and semi-automated skull-stripping
+  algorithms using similarity index and segmentation error}.
+\newblock {\em Computers in Biology and Medicine}, 33(6):495--507, November
+  2003.
+
+\bibitem{Sadananthan2010}
+S.A. Sadananthan, Weili Zheng, M.W.L. Chee, and Vitali Zagorodnov.
+\newblock {Skull stripping using graph cuts}.
+\newblock {\em NeuroImage}, 49(1):225--239, 2010.
+
+\bibitem{Sandor1997}
+S~Sandor and R~Leahy.
+\newblock {Surface-based labeling of cortical anatomy using a deformable
+  atlas.}
+\newblock {\em IEEE transactions on medical imaging}, 16(1):41--54, February
+  1997.
+
+\bibitem{Segonne2004}
+F.~S\'{e}gonne, A.M. Dale, E~Busa, M~Glessner, D~Salat, H.K. Hahn, and
+  B~Fischl.
+\newblock {A hybrid approach to the skull stripping problem in MRI}.
+\newblock {\em Neuroimage}, 22(3):1060--1075, 2004.
+
+\bibitem{Shattuck2009}
+David~W Shattuck, Gautam Prasad, Mubeena Mirza, Katherine~L Narr, and Arthur~W
+  Toga.
+\newblock {Online resource for validation of brain segmentation methods.}
+\newblock {\em NeuroImage}, 45(2):431--9, April 2009.
+
+\bibitem{Shi2011}
+Feng Shi, Li~Wang, J~Gilmore, Weili Lin, and Dinggang Shen.
+\newblock {Learning-Based Meta-Algorithm for MRI Brain Extraction}.
+\newblock In Gabor Fichtinger, Anne Martel, and Terry Peters, editors, {\em
+  MICCAI - Medical Image Computing and Computer Assisted Interventions}, pages
+  313--321, Toronto, 2011.
+
+\bibitem{Smith2002a}
+Stephen~M Smith.
+\newblock {Fast robust automated brain extraction.}
+\newblock {\em Human brain mapping}, 17(3):143--55, November 2002a.
+
+\bibitem{Speier2011}
+William Speier, J~Iglesias, L~El-Kara, Zhuowen Tu, and Corey Arnold.
+\newblock {Robust Skull Stripping of Clinical Glioblastoma Multiforme Data}.
+\newblock In Gabor Fichtinger, Anne Martel, and Peters, editors, {\em MICCAI -
+  Medical Image Computing and Computer Assisted Interventions}, pages 659--666,
+  Toronto, 2011. Springer LNCS.
+
+\bibitem{Tsai2003}
+Richard Tsai and Stanley Osher.
+\newblock {Level Set Methods and their Applications in Image Science}.
+\newblock {\em Communications in Mathematical Sciences}, 1(4):623--656, 2003.
+
+\bibitem{Wang2011}
+Yaping Wang, Jingxin Nie, PT~Yap, Feng Shi, Lei Guo, and Dinggang Shen.
+\newblock {Robust Deformable-Surface-Based Skull-Stripping for Large-Scale
+  Studies}.
+\newblock In Gabor Fichtinger, Anne Martel, and Peters, editors, {\em MICCAI -
+  Medical Image Computing and Computer Assisted Interventions}, pages 635--642,
+  Toronto, 2011. Springer LNCS.
+
+\bibitem{Zitova2003}
+Barbara Zitova and Jan Flusser.
+\newblock {Image registration methods: a survey}.
+\newblock {\em Image and Vision Computing}, 21(11):977--1000, October 2003.
+
+\end{thebibliography}

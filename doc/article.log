@@ -1,10 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.8.16)  30 APR 2012 17:59
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.8.16)  30 APR 2012 18:09
 entering extended mode
-**C:/Documents*and*Settings/Stefan/My*Documents/Files/Publications/journals/Ins
-ightJournal-stripTs2012/doc/article.tex
-
-("C:/Documents and Settings/Stefan/My Documents/Files/Publications/journals/Ins
-ightJournal-stripTs2012/doc/article.tex"
+**C:/Documents*and*Settings/Stefan/skullStrip/doc/article.tex
+("C:/Documents and Settings/Stefan/skullStrip/doc/article.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -16,13 +13,9 @@ an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese,
 romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
 sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
-
-("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
-ightJournal-stripTs2012\doc\InsightArticle.cls"
+("C:\Documents and Settings\Stefan\skullStrip\doc\InsightArticle.cls"
 Document Class: InsightArticle 1998/02/25 Document class (Insight Article)
-
-("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
-ightJournal-stripTs2012\doc\times.sty"
+("C:\Documents and Settings\Stefan\skullStrip\doc\times.sty"
 Package: times 2002/09/08 PSNFSS-v9.0a (SPQR) 
 )
 Using Times instead of Computer Modern.
@@ -43,8 +36,7 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
-ightJournal-stripTs2012\doc\fancyhdr.sty"
+("C:\Documents and Settings\Stefan\skullStrip\doc\fancyhdr.sty"
 \headwidth=\dimen103
 )
 Using fancier footers than usual.
@@ -53,9 +45,7 @@ Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Using ifpdf for the template
-
-("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
-ightJournal-stripTs2012\doc\InsightJournal.sty"
+("C:\Documents and Settings\Stefan\skullStrip\doc\InsightJournal.sty"
 Package: InsightJournal 1998/01/11 LaTeX package (Insight markup)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
@@ -144,8 +134,7 @@ Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
 \c@envdp=\count114
 \d@envb=\dimen121
 )
-("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
-ightJournal-stripTs2012\doc\floatflt.sty"
+("C:\Documents and Settings\Stefan\skullStrip\doc\floatflt.sty"
 Package: floatflt 1997/07/16 v. 1.31
 \c@OptionTest=\count115
 \figbox=\box33
@@ -405,8 +394,7 @@ File: hpdftex.def 2011/04/17 v6.82g Hyperref driver for pdfTeX
 \c@bookmark@seq@number=\count143
 \Hy@SectionHShift=\skip51
 )
-("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
-ightJournal-stripTs2012\doc\article.aux")
+("C:\Documents and Settings\Stefan\skullStrip\doc\article.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
@@ -466,10 +454,8 @@ LaTeX Info: Redefining \ref on input line 53.
 LaTeX Info: Redefining \pageref on input line 53.
 LaTeX Info: Redefining \nameref on input line 53.
 
-("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
-ightJournal-stripTs2012\doc\article.out")
-("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
-ightJournal-stripTs2012\doc\article.out")
+("C:\Documents and Settings\Stefan\skullStrip\doc\article.out")
+("C:\Documents and Settings\Stefan\skullStrip\doc\article.out")
 \@outlinefile=\write4
 
 Underfull \hbox (badness 10000) in paragraph at lines 78--78
@@ -516,9 +502,7 @@ Overfull \hbox (12.27496pt too wide) in paragraph at lines 97--98
 [][] 
  []
 
-
-("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
-ightJournal-stripTs2012\doc\article.toc")
+("C:\Documents and Settings\Stefan\skullStrip\doc\article.toc")
 \tf@toc=\write5
  [1
 
@@ -594,10 +578,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 Overfull \vbox (1.59999pt too high) has occurred while \output is active []
 
 
-[3 <C:/Documents and Settings/Stefan/My Documents/Files/Publications/journals/I
-nsightJournal-stripTs2012/doc/figures/brainweb-mask.png> <C:/Documents and Sett
-ings/Stefan/My Documents/Files/Publications/journals/InsightJournal-stripTs2012
-/doc/figures/brainweb-stripped.png>]
+[3 <C:/Documents and Settings/Stefan/skullStrip/doc/figures/brainweb-mask.png> 
+<C:/Documents and Settings/Stefan/skullStrip/doc/figures/brainweb-stripped.png>
+]
 ! Undefined control sequence.
 l.157 \subfigure
                 {\includegraphics[width=0.19\textwidth]{figures/t1-mask.png}}
@@ -678,15 +661,11 @@ Package pdftex.def Info: figures/ct-mask.png used on input line 161.
 Overfull \vbox (1.59999pt too high) has occurred while \output is active []
 
 
-[4 <C:/Documents and Settings/Stefan/My Documents/Files/Publications/journals/I
-nsightJournal-stripTs2012/doc/figures/t1-mask.png> <C:/Documents and Settings/S
-tefan/My Documents/Files/Publications/journals/InsightJournal-stripTs2012/doc/f
-igures/t1c-mask.png> <C:/Documents and Settings/Stefan/My Documents/Files/Publi
-cations/journals/InsightJournal-stripTs2012/doc/figures/t2-mask.png> <C:/Docume
-nts and Settings/Stefan/My Documents/Files/Publications/journals/InsightJournal
--stripTs2012/doc/figures/t2f-mask.png> <C:/Documents and Settings/Stefan/My Doc
-uments/Files/Publications/journals/InsightJournal-stripTs2012/doc/figures/ct-ma
-sk.png>]
+[4 <C:/Documents and Settings/Stefan/skullStrip/doc/figures/t1-mask.png> <C:/Do
+cuments and Settings/Stefan/skullStrip/doc/figures/t1c-mask.png> <C:/Documents 
+and Settings/Stefan/skullStrip/doc/figures/t2-mask.png> <C:/Documents and Setti
+ngs/Stefan/skullStrip/doc/figures/t2f-mask.png> <C:/Documents and Settings/Stef
+an/skullStrip/doc/figures/ct-mask.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 197--198
 []\OT1/ptm/m/n/10.95 The fol-low-ing ex-cerpt from the []\OT1/pcr/m/n/10.95 sku
 llStripping.cxx \OT1/ptm/m/n/10.95 main file shows how to use the
@@ -702,11 +681,8 @@ lasLabelType> StripTsFilterType;[]
 Overfull \vbox (1.59999pt too high) has occurred while \output is active []
 
 
-[5]
-("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
-ightJournal-stripTs2012\doc\article.bbl"
-("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
-ightJournal-stripTs2012\doc\article.brf")
+[5] ("C:\Documents and Settings\Stefan\skullStrip\doc\article.bbl"
+("C:\Documents and Settings\Stefan\skullStrip\doc\article.brf")
 \tf@brf=\write6
 Missing character: There is no â in font ptmri7t!
 Missing character: There is no € in font ptmri7t!
@@ -723,9 +699,7 @@ Overfull \vbox (1.59999pt too high) has occurred while \output is active []
 
 [7]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
-
-("C:\Documents and Settings\Stefan\My Documents\Files\Publications\journals\Ins
-ightJournal-stripTs2012\doc\article.aux")
+ ("C:\Documents and Settings\Stefan\skullStrip\doc\article.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 293.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 293.
 Package rerunfilecheck Info: File `article.out' has not changed.
@@ -735,12 +709,12 @@ Package rerunfilecheck Info: File `article.brf' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  6883 strings out of 494045
- 99313 string characters out of 3148330
+ 97774 string characters out of 3148330
  192745 words of memory out of 3000000
  10011 multiletter control sequences out of 15000+200000
  55285 words of font info for 109 fonts, out of 3000000 for 9000
  716 hyphenation exceptions out of 8191
- 41i,12n,42p,1001b,491s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,12n,42p,944b,491s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
@@ -749,7 +723,7 @@ lvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on article.pdf (7 pages, 396097 bytes).
+Output written on article.pdf (7 pages, 396249 bytes).
 PDF statistics:
  239 PDF objects out of 1000 (max. 8388607)
  46 named destinations out of 1000 (max. 500000)

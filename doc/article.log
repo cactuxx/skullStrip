@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.8.16)  30 APR 2012 18:09
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.8.16)  1 MAY 2012 08:28
 entering extended mode
 **C:/Documents*and*Settings/Stefan/skullStrip/doc/article.tex
 ("C:/Documents and Settings/Stefan/skullStrip/doc/article.tex"
@@ -692,16 +692,16 @@ Overfull \vbox (1.59999pt too high) has occurred while \output is active []
 
 
 [6])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 293.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
 
 Overfull \vbox (1.59999pt too high) has occurred while \output is active []
 
 
 [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
  ("C:\Documents and Settings\Stefan\skullStrip\doc\article.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 293.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 293.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
 Package rerunfilecheck Info: File `article.out' has not changed.
 (rerunfilecheck)             Checksum: C49B942892D367874D88AADAAE300A6D;273.
 Package rerunfilecheck Info: File `article.brf' has not changed.
@@ -723,7 +723,7 @@ lvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on article.pdf (7 pages, 396249 bytes).
+Output written on article.pdf (7 pages, 396247 bytes).
 PDF statistics:
  239 PDF objects out of 1000 (max. 8388607)
  46 named destinations out of 1000 (max. 500000)

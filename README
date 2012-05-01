@@ -1,1 +1,2 @@
 testing repository for itkStripTsImageFilter
+This ITK filter performs automatic skull-stripping for neuroimage analysis.

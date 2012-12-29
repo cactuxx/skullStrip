@@ -5,6 +5,8 @@ itk_module( ITKSkullStrip
   DEPENDS
     ITKLevelSets 
     ITKRegistrationCommon
+    ITKIOImageBase
+    ITKImageIntensity
   TEST_DEPENDS
     ITKTestKernel
     ITKIOMeta

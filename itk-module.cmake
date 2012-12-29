@@ -3,13 +3,13 @@ It is based on the ITK level-set and registration frameworks." )
 
 itk_module( ITKSkullStrip
   DEPENDS
-    ITKLevelSets 
+    ITKLevelSets
     ITKRegistrationCommon
     ITKIOImageBase
     ITKImageIntensity
+    ITKIOMeta
   TEST_DEPENDS
     ITKTestKernel
-    ITKIOMeta
   DESCRIPTION
     "${DOCUMENTATION}"
 )

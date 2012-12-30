@@ -268,7 +268,7 @@ void StripTsImageFilter<TImageType, TAtlasImageType, TAtlasLabelType>
 
   try
     {
-    registration->StartRegistration();
+    registration->Update();
     }
   catch( itk::ExceptionObject &exception )
     {
@@ -414,7 +414,7 @@ void StripTsImageFilter<TImageType, TAtlasImageType, TAtlasLabelType>
 
   try
     {
-    registration->StartRegistration();
+    registration->Update();
     }
   catch( itk::ExceptionObject &exception )
     {

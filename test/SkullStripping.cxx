@@ -16,7 +16,7 @@
  *
  *=========================================================================*/
 
-/* skullStripping.cxx
+/* SkullStripping.cxx
 This is a demo program for testing the itkStripTsImageFilter for automatic skull-stripping.
 
 version: 1.0

@@ -37,8 +37,7 @@ stefan.bauer@istb.unibe.ch
 
 #include "itkStripTsImageFilter.h"
 
-
-int main( int argc, char* argv[] )
+int SkullStripping( int argc, char* argv[] )
 {
   if( argc < 6 )
   {
@@ -86,7 +85,6 @@ int main( int argc, char* argv[] )
 
     return EXIT_FAILURE;
     }
-  return(0);
 
   // perform skull-stripping using stripTsImageFilter
   std::cout << std::endl << "Performing skull-stripping" << std::endl;
@@ -159,7 +157,7 @@ int main( int argc, char* argv[] )
 
 
   double endTime = time(0);
-  std::cout << "Total computation time: " << endTime-startTime << "seconds" << std::endl;
+  std::cout << "Total computation time: " << endTime-startTime << "seconds " << std::endl;
 
 
   return EXIT_SUCCESS;

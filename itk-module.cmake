@@ -10,6 +10,7 @@ itk_module( ITKSkullStrip
     ITKIOMeta
   TEST_DEPENDS
     ITKTestKernel
+  EXCLUDE_FROM_ALL
   DESCRIPTION
     "${DOCUMENTATION}"
 )

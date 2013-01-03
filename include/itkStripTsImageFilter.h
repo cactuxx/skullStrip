@@ -73,8 +73,17 @@ namespace itk
 
  * Stefan Bauer
  * Institute for Surgical Technology and Biomechanics, University of Bern
- * stefan.bauer@istb.unibe.ch
+ * stefan.bauer at istb.unibe.ch
  *
+ *  This code is from the Insight Journal paper:
+ *    "A Skull-Stripping Filter for ITK"
+ *    Bauer S., Fejes T., Reyes M.
+ *    http://hdl.handle.net/10380/3353
+ *  Based on the paper:
+ *    "Skull-stripping for Tumor-bearing Brain Images".
+ *    Stefan Bauer, Lutz-Peter Nolte, and Mauricio Reyes.
+ *    In Annual Meeting of the Swiss Society for Biomedical
+ *    Engineering, page 2, Bern, April 2011..
  */
 
 template <class TImageType, class TAtlasImageType, class TAtlasLabelType>

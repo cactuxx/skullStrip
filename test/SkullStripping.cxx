@@ -37,7 +37,7 @@ stefan.bauer@istb.unibe.ch
 
 #include "itkStripTsImageFilter.h"
 
-int SkullStripping( int argc, char* argv[] )
+int main( int argc, char* argv[] )
 {
   if( argc < 6 )
   {

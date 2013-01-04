@@ -8,6 +8,24 @@ itk_module( ITKSkullStrip
     ITKIOImageBase
     ITKImageIntensity
     ITKIOMeta
+# Image IO Modules
+  ITKIOJPEG
+  ITKIOGDCM
+  ITKIOBMP
+  ITKIOLSM
+  ITKIOPNG
+  ITKIOTIFF
+  ITKIOVTK
+  ITKIOStimulate
+  ITKIOBioRad
+  ITKIOMeta
+  ITKIONIFTI
+  ITKIONRRD
+  ITKIOGIPL
+# Transform IO Modules
+  ITKIOTransformMatlab
+  ITKIOTransformHDF5
+  ITKIOTransformInsightLegacy
   TEST_DEPENDS
     ITKTestKernel
   EXCLUDE_FROM_ALL

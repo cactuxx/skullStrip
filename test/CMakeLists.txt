@@ -6,6 +6,8 @@ SkullStrippingTest.cxx
 CreateTestDriver(ITKSkullStrip  "${ITKSkullStrip-Test_LIBRARIES}" "${ITKSkullStripTests}")
 
 # Build the sample application
+set(ITK_NO_IO_FACTORY_REGISTER_MANAGER "")
+include(${ITK_SOURCE_DIR}/CMake/UseITK.cmake)
 add_executable(SkullStripping MACOSX_BUNDLE SkullStripping.cxx )
 target_link_libraries(SkullStripping ${ITKSkullStrip_LIBRARIES})
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.8.16)  1 MAY 2012 08:28
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.8.16)  14 JAN 2013 16:59
 entering extended mode
 **C:/Documents*and*Settings/Stefan/skullStrip/doc/article.tex
 ("C:/Documents and Settings/Stefan/skullStrip/doc/article.tex"
@@ -548,7 +548,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figures/brainweb-mask.png, id=111, 334.24875pt x 321.2pt>
+<figures/brainweb-mask.png, id=116, 334.24875pt x 321.2pt>
 File: figures/brainweb-mask.png Graphic file (type png)
 
 <use figures/brainweb-mask.png>
@@ -564,7 +564,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figures/brainweb-stripped.png, id=113, 334.24875pt x 321.2pt>
+<figures/brainweb-stripped.png, id=118, 334.24875pt x 321.2pt>
 File: figures/brainweb-stripped.png Graphic file (type png)
 
 <use figures/brainweb-stripped.png>
@@ -590,7 +590,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figures/t1-mask.png, id=127, 334.24875pt x 321.2pt>
+<figures/t1-mask.png, id=132, 334.24875pt x 321.2pt>
 File: figures/t1-mask.png Graphic file (type png)
  <use figures/t1-mask.png>
 Package pdftex.def Info: figures/t1-mask.png used on input line 157.
@@ -605,7 +605,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figures/t1c-mask.png, id=128, 334.24875pt x 321.2pt>
+<figures/t1c-mask.png, id=133, 334.24875pt x 321.2pt>
 File: figures/t1c-mask.png Graphic file (type png)
 
 <use figures/t1c-mask.png>
@@ -621,7 +621,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figures/t2-mask.png, id=129, 334.24875pt x 321.2pt>
+<figures/t2-mask.png, id=134, 334.24875pt x 321.2pt>
 File: figures/t2-mask.png Graphic file (type png)
  <use figures/t2-mask.png>
 Package pdftex.def Info: figures/t2-mask.png used on input line 159.
@@ -636,7 +636,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figures/t2f-mask.png, id=130, 334.24875pt x 321.2pt>
+<figures/t2f-mask.png, id=135, 334.24875pt x 321.2pt>
 File: figures/t2f-mask.png Graphic file (type png)
 
 <use figures/t2f-mask.png>
@@ -652,7 +652,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<figures/ct-mask.png, id=131, 334.24875pt x 321.2pt>
+<figures/ct-mask.png, id=136, 334.24875pt x 321.2pt>
 File: figures/ct-mask.png Graphic file (type png)
  <use figures/ct-mask.png>
 Package pdftex.def Info: figures/ct-mask.png used on input line 161.
@@ -692,26 +692,26 @@ Overfull \vbox (1.59999pt too high) has occurred while \output is active []
 
 
 [6])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 256.
 
 Overfull \vbox (1.59999pt too high) has occurred while \output is active []
 
 
 [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 256.
  ("C:\Documents and Settings\Stefan\skullStrip\doc\article.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 256.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 256.
 Package rerunfilecheck Info: File `article.out' has not changed.
-(rerunfilecheck)             Checksum: C49B942892D367874D88AADAAE300A6D;273.
+(rerunfilecheck)             Checksum: B1ABD7A122609B5B36B22F3FB81EE881;324.
 Package rerunfilecheck Info: File `article.brf' has not changed.
 (rerunfilecheck)             Checksum: 8F84614C03EF2A1579059A91B6A2633A;620.
  ) 
 Here is how much of TeX's memory you used:
- 6883 strings out of 494045
- 97774 string characters out of 3148330
+ 6885 strings out of 494045
+ 97794 string characters out of 3148330
  192745 words of memory out of 3000000
- 10011 multiletter control sequences out of 15000+200000
+ 10012 multiletter control sequences out of 15000+200000
  55285 words of font info for 109 fonts, out of 3000000 for 9000
  716 hyphenation exceptions out of 8191
  41i,12n,42p,944b,491s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -723,9 +723,9 @@ lvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/urw/times/utmri8a.pfb>
-Output written on article.pdf (7 pages, 396247 bytes).
+Output written on article.pdf (7 pages, 397701 bytes).
 PDF statistics:
- 239 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 84 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 244 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 92 words of extra memory for PDF output out of 10000 (max. 10000000)
 

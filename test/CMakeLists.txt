@@ -1,31 +1,26 @@
-add_executable(skullStripping skullStripping.cxx)
-target_link_libraries(skullStripping ${ITK_LIBRARIES})
+itk_module_test()
+set(ITKSkullStripTests
+SkullStrippingTest.cxx
+)
 
-if( ${ITK_MAJOR_VERSION} MATCHES "3" )
-  add_executable(${CurrentExe} ImageCompare.cxx)
-  target_link_libraries(${CurrentExe} ${Libraries})
+CreateTestDriver(ITKSkullStrip  "${ITKSkullStrip-Test_LIBRARIES}" "${ITKSkullStripTests}")
 
-  #Add testing
-  add_test( NAME skullStrippingTest
-    COMMAND skullStripping
-      ${CMAKE_SOURCE_DIR}/brainweb.mha
-      ${CMAKE_SOURCE_DIR}/atlasImage.mha
-      ${CMAKE_SOURCE_DIR}/atlasMask.mha
-    )
+# Build the sample application
+set(ITK_NO_IO_FACTORY_REGISTER_MANAGER "")
+include(${ITK_SOURCE_DIR}/CMake/UseITK.cmake)
+add_executable(SkullStripping MACOSX_BUNDLE SkullStripping.cxx )
+target_link_libraries(SkullStripping ${ITKSkullStrip_LIBRARIES})
 
-  add_test( NAME skullStrippingCompare
-    COMMAND ImageCompare
-      ${CMAKE_SOURCE_DIR}/outputMask.mha
-      ${CMAKE_SOURCE_DIR}/outputMaskBaseline.mha
-  )
-else()
-
-endif()
-  add_test( NAME skullStrippingTest
-    COMMAND skullStripping
-      ${CMAKE_SOURCE_DIR}/brainweb.mha
-      ${CMAKE_SOURCE_DIR}/atlasImage.mha
-      ${CMAKE_SOURCE_DIR}/atlasMask.mha
-    )
-
-
+set(TEMP ${ITK_TEST_OUTPUT_DIR})
+set(TEST_DATA_ROOT "${ITKSkullStrip_SOURCE_DIR}/test")
+itk_add_test( NAME SkullStrippingTest
+  COMMAND ITKSkullStripTestDriver
+    --compare ${TEST_DATA_ROOT}/Baseline/outputMaskBaseline.mha
+              ${TEMP}/outputMask.mha
+    SkullStrippingTest
+    ${TEST_DATA_ROOT}/Input/brainweb.mha
+    ${TEST_DATA_ROOT}/Input/atlasImage.mha
+    ${TEST_DATA_ROOT}/Input/atlasMask.mha
+    ${TEMP}/outputMask.mha
+    ${TEMP}/outputMaskedImage.mha
+)

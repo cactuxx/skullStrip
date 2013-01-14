@@ -3,11 +3,32 @@ It is based on the ITK level-set and registration frameworks." )
 
 itk_module( ITKSkullStrip
   DEPENDS
-    ITKLevelSets 
+    ITKLevelSets
     ITKRegistrationCommon
+    ITKIOImageBase
+    ITKImageIntensity
+    ITKIOMeta
+# Image IO Modules
+  ITKIOJPEG
+  ITKIOGDCM
+  ITKIOBMP
+  ITKIOLSM
+  ITKIOPNG
+  ITKIOTIFF
+  ITKIOVTK
+  ITKIOStimulate
+  ITKIOBioRad
+  ITKIOMeta
+  ITKIONIFTI
+  ITKIONRRD
+  ITKIOGIPL
+# Transform IO Modules
+  ITKIOTransformMatlab
+  ITKIOTransformHDF5
+  ITKIOTransformInsightLegacy
   TEST_DEPENDS
     ITKTestKernel
-    ITKIOMeta
+  EXCLUDE_FROM_ALL
   DESCRIPTION
     "${DOCUMENTATION}"
 )

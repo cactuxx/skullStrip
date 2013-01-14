@@ -1,5 +1,5 @@
 itk_fetch_module(SkullStrip
-  "Description."
-  GIT_REPOSITORY https://github.com/cactuxx/skullStrip.git
-  GIT_TAG 1.0
+  "A class to perform automatic skull-stripping for neuroimage analysis."
+  GIT_REPOSITORY https://github.com/lorensen/skullStrip.git
+  GIT_TAG master
   )

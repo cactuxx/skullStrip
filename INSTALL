@@ -1,7 +1,7 @@
 To build SkullStrip as an ITKv4 Remote module:
 
 * Enable fetching
-  1) Go to: https://github.com/lorensen/skullStrip/blob/master/SkullStrip.remote.cmake
+  1) Go to: https://github.com/cactuxx/skullStrip/blob/test-remote/SkullStrip.remote.cmake
   2) Right click on the "Raw" button and select "Save Link As..."
   3) Save the file in: YOUR_ITK_SOURCE_DIR/Modules/Remote
 
@@ -12,7 +12,7 @@ A) If you use an interactive cmake (ccmake, cmake-gui or cmakesetup)
   2) Configure
 
 * Fetch SkullStrip
-  1) Open the highlighted (red) cmake entry
+  1) Open the highlighted (red) cmake entry (for this "Advanced" has to be ticked)
   2) Check the Fetch_SkullStrip box
   3) Configure
 
@@ -38,5 +38,4 @@ Once you have configured using A) or B)
   1) make
 
 * Test SkullStrip if testing is on
-  1) ctest -V -R SkullStrip
-2
+  1) ctest -V -R SkullStrip or try ctest -C <Debug/Release> -V -R SkullStrip

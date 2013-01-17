@@ -38,4 +38,5 @@ Once you have configured using A) or B)
   1) make
 
 * Test SkullStrip if testing is on
-  1) ctest -V -R SkullStrip or try ctest -C <Debug/Release> -V -R SkullStrip
+  1) ctest -V -R SkullStrip
+     or try ctest -C <Debug/Release> -V -R SkullStrip

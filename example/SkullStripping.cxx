@@ -43,7 +43,7 @@ int main( int argc, char* argv[] )
   {
     std::cerr << "Usage: " << argv[0]
               << " patientImageFile atlasImageFile atlasMaskFile"
-              << " outputMask outputPatientMask"\
+              << " outputMask outputMaskedPatientImage"\
               << std::endl;
     return EXIT_FAILURE;
   }

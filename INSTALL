@@ -4,7 +4,7 @@ I. REMOTE MODULE
 To build SkullStrip as an ITKv4 Remote module:
 (you need Git for this, otherwise use external module, see below)
 
-* Enable fetching
+* Enable fetching (this should work from version 4.0 on)
   1) Go to: https://github.com/cactuxx/skullStrip/blob/master/SkullStrip.remote.cmake
   2) Right click on the "Raw" button and select "Save Link As..."
   3) Save the file in: YOUR_ITK_SOURCE_DIR/Modules/Remote
